@@ -1,0 +1,155 @@
+html,body{
+	width:100%;
+	margin:0px auto;
+	overflow-x:hidden;
+}
+.navbar-left{
+	color:white;
+}
+.middle{
+	background-image:url("img/2.jpg");
+	background-repeat: no-repeat;
+	background-position:center center;
+	background-size:cover;
+	width:100%;
+	margin:0px;
+	height:400px;
+	background-attachment:fixed;
+	
+}
+.transparent{
+	background:rgba(0,0,0,0.87);
+	width:100%;
+	height:400px;
+	left:0px;
+	top:0px;
+	background-attachment: fixed;
+}
+.middle>.transparent>.row>.col-md-9>h1{
+	margin-top:150px;
+	font-size:2.1em;
+	text-transform: uppercase;
+	font-family:roboto-sans;
+	color:rgb(228,232,242);
+	letter-spacing: 0.3em;
+	display:none;
+}
+.middle>.transparent>.row>.col-md-offset-5>p{
+	font-size:16px;
+	color:rgb(40,65,122);
+	text-transform:uppercase;
+	font-family:sans-serif;
+	letter-spacing: 0.1em;
+	margin-left: 20px;
+	display: none;
+}
+
+
+
+.col-md-offset-5>button{
+	background:none;
+	color:yellow;
+	width:150px;
+	height:40px;
+	border-radius:0px;
+	margin-left:40px;
+	margin-top:30px;
+	border:2px solid white;
+	letter-spacing: 0.2em;
+	text-transform: uppercase;
+	display: none;
+}
+.col-md-offset-5>button:hover{
+	background:rgb(7,74,102);
+	color:white;
+}
+.navbar-default{
+	background:black;
+	width:100%;
+}
+#mynav{
+	margin-right: 20px;
+}
+.navbar-collapse > .navbar-right > li > a{
+	font-size:12px;
+	font-weight:bold;
+	color:rgba(192,192,192,0.8);
+	text-transform: uppercase;
+}
+.navbar-collapse > .navbar-right > li > a:hover{
+	
+	color:white;
+}
+#extra{
+	margin-top:10px;
+}
+#mycarousel1{
+	margin-left:5px;
+}
+img{
+	height:400;
+	width:400;
+    background-repeat:no-repeat;
+    background-size:cover;
+}
+img:hover{
+	border-radius: 100%;
+	transition:2s;
+}
+.scam>h2{
+	letter-spacing: 0.14em;
+	color:rgb(10,7,7);
+	font-family:bold;
+}
+.scam>section{
+	border:1px solid black;
+	width:58px;
+	margin-left:58px;
+}
+.scam>p{
+	text-transform: uppercase;
+	margin-top:15px;
+}
+#contact-us{
+	background:rgba(198,203,201,0.8);
+	width:100%;
+	height:450px;
+}
+.contact>h3{
+	text-transform:uppercase;
+	font-weight:bold;
+}
+i{
+	color:rgb(19,125,86);
+	margin-left:10px;
+}
+.col-md-offset-2>p{
+	color:rgb(19,125,86);
+}
+.col-md-offset-4>p{
+	margin-left:70px;
+}
+.col-md-offset-2>input{
+	padding-left: 10px;
+	margin-left:30px;
+}
+.grt>textarea{
+	height:100px;
+	padding:10px;
+	width:400px; 
+}
+.in>input{
+	padding-left:10px;
+	height:30px;
+}
+.ter>button{
+	margin-left:20px;
+	border:2px solid rgb(51,0,0);
+	color:rgb(216,204,35);
+	background:rgb(82,81,66);
+	border-radius: none; 
+}
+.ter>button:hover{
+	border:2px solid rgb(51,0,0);
+	border-radius: none;
+}
