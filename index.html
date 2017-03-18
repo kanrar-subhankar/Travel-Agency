@@ -19,6 +19,7 @@ Travel
      <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet"> 
   <link href="https://fonts.googleapis.com/css?family=Lora" rel="stylesheet">
   <script src="jquery-3.1.1.min.js"></script>
+  <script src="js/scroll.js"></script>
      <link rel="stylesheet" href="style.css" type="text/css">
 </head>
 <body>
@@ -38,11 +39,11 @@ Travel
 
 <div class="collapse navbar-collapse" id="mynav">
 <ul class="nav navbar-nav navbar-right">
-<li><a href="#home">HOME</a></li>
-<li> <a href="#contact-us">Contact us</a></li>
-<li><a href="#">About us</a></li>
-<li> <a href="#">Destination</a></li>
-<li> <a href="#">Checkout</a></li>
+<li><a data-scroll class="scroll" href="#home">HOME</a></li>
+<li> <a data-scroll class="scroll" href="#contact-us">Contact us</a></li>
+<li><a data-scroll class="scroll" href="#about">About us</a></li>
+<li> <a data-scroll class="scroll" href="#">Destination</a></li>
+<li> <a data-scroll class="scroll" href="#">Checkout</a></li>
 
 </ul>
 </div>
@@ -97,8 +98,6 @@ Travel
      </div>
 </div>
 </div>
-
-////////About us page
 <div id="contact-us">
   <div class="row">
     <div class="col-md-4 col-md-offset-4 contact">
@@ -111,15 +110,15 @@ Travel
     </div>
   </div>
   <div class="row" style="margin-top:50px">
-    <div class="col-md-1 col-md-offset-2">
-      <i class="fa fa-envelope fa-2x"></i><br>
+    <div class="col-md-1 col-md-offset-2 ala">
+      <i class="fa fa-envelope fa-2x" style="margin-left:25px"></i><br>
       <p>someone@gmail.com</p>
     </div>
-    <div class="col-md-1 col-md-offset-2">
+    <div class="col-md-1 col-md-offset-2 ala">
       <i class="fa fa-phone fa-2x"></i><br>
       <p>9679017597</p>
     </div>
-    <div class="col-md-1 col-md-offset-2">
+    <div class="col-md-1 col-md-offset-2 ala">
       <i class="fa fa-map-marker fa-2x"></i><br>
       <p>kolkata</p>
     </div>
@@ -142,7 +141,35 @@ Travel
   </div>
  </div>
 
+<div id="About" style="margin-top:20px">
+<div class="row">
+  <div class="col-md-4 col-md-offset-3 abt">
+    <div class="col-md-6 active" ><h4>Locations</h4></div>
+     <div class="col-md-6 rev"><h4>Reviews</h4></div>
+     <div class="bod" style="margin-top:60px">
+          <p><b>California</b> 13 April,<b>Mumbai</b> 3 April</p>
+      </div>
+      <div class="ime" style="margin-top:25px">
+      <img src="img/cal.jpg">
+      </div>
+  </div>
+  <div class="col-md-2 col-md-offset-1 aha">
+  <h3 style="padding-left:10px"><b>Latest Reviews</b></h3>
+  <p class="des">This is a great agency.I went many where this was an awesome tour.Foods and staying room was great.</p> 
+  <p class="bon">-From Chennai</p>
+  </br>
+  <p class="des">whenever i go anywhere i go from here.Travelling cost is very low and it very more advantageous for personal life.</p> 
+  <p class="bon">-From Delhi</p>
+  </div>
+</div>
+</div>
 
+
+
+
+<script>
+smoothScroll.init()
+</script>
 <script type="text/javascript">
 $(document).ready(function(){
   $('#mainId').show(2000);
