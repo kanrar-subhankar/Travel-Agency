@@ -40,9 +40,9 @@ Travel
 <div class="collapse navbar-collapse" id="mynav">
 <ul class="nav navbar-nav navbar-right">
 <li><a data-scroll class="scroll" href="#home">HOME</a></li>
-<li> <a data-scroll class="scroll" href="#contact-us">Contact us</a></li>
 <li><a data-scroll class="scroll" href="#about">About us</a></li>
-<li> <a data-scroll class="scroll" href="#">Destination</a></li>
+<li> <a data-scroll class="scroll" href="#contact-us">Contact us</a></li>
+<li> <a data-scroll class="scroll" href="#destination">Destination</a></li>
 <li> <a data-scroll class="scroll" href="#">Checkout</a></li>
 
 </ul>
@@ -69,8 +69,8 @@ Travel
       
   </div>
 </div>
-
-<div class="row" id="extra">
+</div>
+<div class="row" id="about">
      <div class="col-md-4" id="mycarousel1">
         <div id="carousel" class="carousel slide" data-ride="carousel">
         <ol class="carousel-indicators"> 
@@ -97,7 +97,7 @@ Travel
         <p style="color:black">we explore you throughout the world.You choose where you like to go we fulfill your dream.It's a very well known agency established in 2002 and going on with a great success.</p>
      </div>
 </div>
-</div>
+
 <div id="contact-us">
   <div class="row">
     <div class="col-md-4 col-md-offset-4 contact">
@@ -141,7 +141,7 @@ Travel
   </div>
  </div>
 
-<div id="About" style="margin-top:20px">
+<div id="destination" style="margin-top:20px">
 <div class="row">
   <div class="col-md-4 col-md-offset-3 abt">
     <div class="col-md-6 active" ><h4>Locations</h4></div>
@@ -175,6 +175,9 @@ $(document).ready(function(){
   $('#mainId').show(2000);
   $('#subId').show(2000);
   $('.btn-default').show(2000);
+});
+$('a').click(function(){
+  var att=$(this).attr('href');
 });
 
 </script>
