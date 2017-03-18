@@ -111,7 +111,7 @@ img:hover{
 	margin-top:15px;
 }
 #contact-us{
-	background:rgba(198,203,201,0.8);
+	background:rgba(183,202,191,0.8);
 	width:100%;
 	height:450px;
 }
@@ -137,10 +137,15 @@ i{
 	height:100px;
 	padding:10px;
 	width:400px; 
+	border:1px solid rgb(96,84,155);
 }
 .in>input{
 	padding-left:10px;
 	height:30px;
+	border:1px solid rgb(96,84,155);
+}
+.grt>textarea:hover{
+	border:1px solid rgb(88,81,122);
 }
 .ter>button{
 	margin-left:20px;
